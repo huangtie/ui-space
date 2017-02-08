@@ -1,0 +1,133 @@
+<include file="Index/header" />
+<body>
+<div id="wrapper">
+
+  <include file="Index/nav"/>
+  <script src="__PUBLIC__/js/kindeditor/kindeditor-all.js"></script>
+
+  <link href="Public/distpicker/css/city-picker.css" rel="stylesheet">
+  <link href="Public/distpicker/css/main.css" rel="stylesheet">
+  <div id="page-wrapper">
+
+    <div class="container-fluid">
+
+      <!-- Page Heading -->
+      <div class="row">
+        <div class="col-lg-12">
+
+          <ol class="breadcrumb">
+            <li>
+              <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=content">内容管理</a>
+            </li>
+            <li class="active">
+              <i class="fa fa-edit"></i> 添加内容
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-6">
+
+          <form class="form-horizontal" id="singcms-form">
+            <div class="form-group">
+              <label for="inputname" class="col-sm-2 control-label">标题:</label>
+              <div class="col-sm-5">
+                <input type="text" name="content_name" class="form-control" id="inputname" placeholder="请填写标题">
+              </div>
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="inputname" class="col-sm-2 control-label">分类:</label>
+              <div id="distpicker" style="width: 35%; float: left;margin-left: 30px">
+                <div class="form-group">
+                  <div style="position: relative;">
+                    <input id="s1" name="s1" style="display: none">
+                    <input id="s2" name="s2" style="display: none">
+                    <input id="s3" name="s3" style="display: none">
+                    <input id="city-picker3" class="form-control" readonly type="text" value="" data-toggle="city-picker" name="class_id">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-warning" id="reset" type="button">重选</button>
+                  <button class="btn btn-danger" id="destroy" type="button">确认</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="inputname" class="col-sm-2 control-label">图片:</label>
+              <div class="col-sm-5">
+                <input id="file_upload"  type="file" multiple="true" >
+                <img style="display: none" id="upload_org_code_img" src="" width="150" height="150">
+                <input id="file_upload_image" name="content_image" type="hidden" multiple="true" value="">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputname" class="col-sm-2 control-label">链接地址:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" name="content_url" id="content_url" placeholder="请输入链接地址" value="http://">
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="inputname" class="col-sm-2 control-label">描述:</label>
+              <div class="col-sm-9">
+                <textarea class="form-control" style="" id="" name="content_text" rows="5" ></textarea>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
+              </div>
+            </div>
+          </form>
+
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container-fluid -->
+
+  </div>
+  <!-- /#page-wrapper -->
+
+</div>
+<script>
+  var SCOPE = {
+    'save_url' : '/admin.php?c=content&a=saveAdd',
+    'jump_url' : '/admin.php?c=content',
+    'ajax_upload_image_url' : '/admin.php?c=image&a=ajaxuploadimage',
+    'ajax_upload_swf' : 'Public/js/uploadify/uploadify.swf',
+  };
+
+</script>
+<!-- /#wrapper -->
+<script src="Public/js/admin/image.js"></script>
+<!--<script src="Public/distpicker/js/jquery.js"></script>-->
+<script src="Public/distpicker/js/bootstrap.js"></script>
+<script src="Public/distpicker/js/city-picker.data.js"></script>
+<script src="Public/distpicker/js/city-picker.js"></script>
+<script src="Public/distpicker/js/main.js"></script>
+
+<script>
+  // 6.2
+  KindEditor.ready(function(K) {
+    window.editor = K.create('#editor_singcms',{
+      uploadJson : '/admin.php?c=image&a=kindupload',
+      afterBlur : function(){this.sync();}, //
+    });
+  });
+</script>
+<include file="Index/footer" />

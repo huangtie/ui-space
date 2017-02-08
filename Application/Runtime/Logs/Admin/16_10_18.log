@@ -1,0 +1,624 @@
+[ 2016-10-18T17:01:50+08:00 ] 127.0.0.1 /admin.php?c=class&a=one
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 1 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_class` WHERE `type` = 1 AND `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php on line 76 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 102 行.
+NOTIC: [8] Undefined variable: parentdata /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-10-18T17:02:01+08:00 ] 127.0.0.1 /admin.php?c=class&a=three
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_class` WHERE `type` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,100   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php on line 76 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 102 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-10-18T17:02:02+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: content_name /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 26 行.
+NOTIC: [8] Undefined index: class_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `us_content` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/contentModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_content` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 42 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 43 行.
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/contentModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_content` WHERE `status` <> -1 ORDER BY listorder asc, class_id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '23' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 75 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Undefined variable: menus /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined variable: searchtitle /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-10-18T17:02:04+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` = 1 ORDER BY listorder asc,menu_id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/e2744aea2724da3a85f9df759ede898a.php on line 75 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-10-18T17:02:04+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:04+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 1 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:04+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:13+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:13+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `parent_id` = '9' AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:14+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = '1' AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 1 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:31+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 1 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '0' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-10-18T17:02:33+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `parent_id` = '9' AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:33+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 234 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = 0 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+
+[ 2016-10-18T17:02:34+08:00 ] 127.0.0.1 /admin.php?c=content&a=getClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/classModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `parent_id` = '1' AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,1000   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-18T17:02:51+08:00 ] 127.0.0.1 /admin.php?c=class&a=three
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_class` WHERE `type` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,100   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php on line 76 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 102 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-10-18T17:02:55+08:00 ] 127.0.0.1 /admin.php?c=class&a=add&type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d286018232c5c29b8dc537d94a135890.php on line 77 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-10-18T17:03:02+08:00 ] 127.0.0.1 /admin.php?c=class&a=saveAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+SQL: INSERT INTO `us_class` (`parent_id`,`class_name`,`type`) VALUES ('1','345','3') [ RunTime:0.0021s ]
+
+[ 2016-10-18T17:03:03+08:00 ] 127.0.0.1 /admin.php?c=class&a=three
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_class` WHERE `type` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,100   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php on line 76 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 102 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-10-18T17:03:16+08:00 ] 127.0.0.1 /admin.php?c=class&a=setStatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+SQL: UPDATE `us_class` SET `status`='-1' WHERE ( class_id=25 ) [ RunTime:0.0022s ]
+
+[ 2016-10-18T17:03:17+08:00 ] 127.0.0.1 /admin.php?c=class&a=three
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 15 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ClassController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 3 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 46 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_class` WHERE `type` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/ClassModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_class` WHERE `type` = 2 AND `status` <> -1 ORDER BY listorder desc, class_id asc LIMIT 0,100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '18' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php on line 76 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Array to string conversion /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 102 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+NOTIC: [8] Undefined variable: parent_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/d226dc04610e76ef6af5711bccd551e3.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-10-18T17:03:21+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: content_name /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 26 行.
+NOTIC: [8] Undefined index: class_id /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `us_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/contentModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `us_content` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 42 行.
+NOTIC: [8] Undefined index: pageSize /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Admin/Controller/ContentController.class.php 第 43 行.
+NOTIC: [8] Undefined index: status /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Model/contentModel.class.php 第 23 行.
+SQL: SELECT * FROM `us_content` WHERE `status` <> -1 ORDER BY listorder asc, class_id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `us_class` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '23' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '1' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `us_class` WHERE `class_id` = '9' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `us_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `us_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id asc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for getActive(), called in /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 75 and defined /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Common/Common/function.php 第 47 行.
+NOTIC: [8] Undefined variable: menus /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 117 行.
+NOTIC: [8] Undefined variable: searchtitle /Applications/XAMPP/xamppfiles/htdocs/ui-space/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
